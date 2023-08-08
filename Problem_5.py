@@ -1,3 +1,4 @@
+# To find the smallest multiple of first n numbers
 def gcd(a,b):
     if a==0:
         return b
