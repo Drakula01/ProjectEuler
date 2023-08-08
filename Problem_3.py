@@ -1,3 +1,4 @@
+# To find the largest prime number that is a factor of the given number 
 num = input("Enter the number:")
 num=int(num)
 div = num
