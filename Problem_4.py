@@ -1,3 +1,4 @@
+# Finding the maximum palindromic number obtained as a product of two n-digit numbers
 num = input('Enter the number of digits: ')
 num=int(num)
 x = 0
