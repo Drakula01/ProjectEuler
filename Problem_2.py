@@ -1,3 +1,5 @@
+# To find the sum of first n even numbers
+# in fibonacci series
 def evenfibonacci(num):
     sum=0
     fibo = [1,2]
@@ -11,4 +13,3 @@ def evenfibonacci(num):
     print(sum)
 
 evenfibonacci(60)
-

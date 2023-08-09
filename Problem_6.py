@@ -1,3 +1,5 @@
+# To find the difference between square of sum and
+# sum of squares of first n natural numbers
 def sqdiff(num):
     sqsum=0
     sumsq=0
@@ -9,5 +11,4 @@ def sqdiff(num):
 
 num = int(input("Enter the limiting number:"))
 print(sqdiff(num))
-
 

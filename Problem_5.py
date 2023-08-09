@@ -1,16 +1,16 @@
-num = input('Enter the number of digits: ')
-num=int(num)
-x = 0
-max_pal = 0
-for i in reversed(range(10**(num-1),10**num)):
-    #print('**check i**')
-    for j in reversed(range(10**(num-1),10**num)):
-       # print('**check j**')
-        prod=str(i*j)
-        if prod == prod[::-1]:
-            if i*j > max_pal:
-                max_pal = i*j
-print(max_pal)
+# To find the smallest multiple of first n numbers
+def gcd(a,b):
+    if a==0:
+        return b
+    return gcd(b%a,a)
 
-
+def smallest_multiple(num):
+    temp = list(range(1,num+1))
+    lcm = 1
+    for i in range(num):
+        lcm = (lcm*temp[i])/gcd(lcm,temp[i])
+    return lcm
+if __name__ == "__main__":
+    n = int(input ("Enter the limiting number:"))
+    print(int(smallest_multiple(n)))
 

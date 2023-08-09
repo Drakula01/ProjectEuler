@@ -1,5 +1,5 @@
 #To find the sum of multiples of 3 & 5
-#below a given number 
+#below a given number
 def sumof3n5(num):
     #num = input("Enter a number:")
     #num=int(num)
