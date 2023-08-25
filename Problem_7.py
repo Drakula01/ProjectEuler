@@ -1,3 +1,4 @@
+# To find the nth prime number
 def nthprime(n):
     primes = [2]
     i=3
